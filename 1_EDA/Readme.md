@@ -1,6 +1,6 @@
 # 🔍 Exploratory Data Analysis with SQL – Data Engineer Job Market (India)
 
-![EDA Project Overview](photo_1.png)
+![EDA Project Overview](/Images/photo_1.png)
 
 A SQL-based exploratory data analysis project that examines the **Indian Data Engineer job market** to identify the **most in-demand, highest-paying, and most valuable skills** using real-world job posting data.
 
@@ -32,7 +32,7 @@ Job market analysts need to answer questions like:
 
 This project analyzes a **data warehouse** built using a star schema design. The warehouse structure consists of:
 
-![Data Warehouse Schema](photo_2.png)
+![Data Warehouse Schema](/Images/photo_2.png)
 
 - **Fact Table:** `job_postings_fact` - Central table containing job posting details (job titles, locations, salaries, dates, etc.)
 - **Dimension Tables:** 
