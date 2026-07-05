@@ -1,6 +1,6 @@
 # 🔍 Exploratory Data Analysis with SQL – Data Engineer Job Market (India)
 
-![EDA Project Overview](/git add 1_EDA/README.mdImages/photo_1.png)
+![EDA Project Overview](/Images/photo_1.png)
 
 A SQL-based exploratory data analysis project that examines the **Indian Data Engineer job market** to identify the **most in-demand, highest-paying, and most valuable skills** using real-world job posting data.
 
