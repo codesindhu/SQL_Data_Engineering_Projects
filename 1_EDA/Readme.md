@@ -69,7 +69,7 @@ By querying across these interconnected tables, I extracted insights about skill
 
 ### Query Structure
 
-1. **[Top Demanded Skills](./01_top_demanded_skills.sql)** – Identifies the 10 most in-demand skills for remote data engineer positions
+1. **[Top Demanded Skills](./01_top_demanded_skills.sql)** – Identifies the 10 most in-demand skills for data engineer positions in India
 2. **[Top Paying Skills](./02_top_paying_skills.sql)** – Analyzes the 25 highest-paying skills with salary and demand metrics
 3. **[Optimal Skills](./03_optimal_skills.sql)** – Calculates an optimal score using natural log of demand combined with median salary to identify the most valuable skills to learn
 
@@ -89,7 +89,7 @@ By querying across these interconnected tables, I extracted insights about skill
 
 - **Complex Joins**: Multi-table `INNER JOIN` operations across `job_postings_fact`, `skills_job_dim`, and `skills_dim`
 - **Aggregations**: `COUNT()`, `MEDIAN()`, `ROUND()` for statistical analysis
-- **Filtering**: Boolean logic with `WHERE` clauses and multiple conditions (`job_title_short`, `job_work_from_home`, `salary_year_avg IS NOT NULL`)
+- **Filtering**: Boolean logic with `WHERE` clauses and multiple conditions (`job_title_short`, `job_country`, `salary_year_avg IS NOT NULL`)
 - **Sorting & Limiting**: `ORDER BY` with `DESC` and `LIMIT` for top-N analysis
 
 ### Data Analysis Techniques

@@ -1,6 +1,6 @@
 /*
 Question: What are the most in-demand skills for data engineers?
-- Join job postings to inner join table similar to query 2
+- Join job postings to their required skills via the skills bridge and dimension tables
 - Identify the top 10 in-demand skills for data engineers
 - Focus on job postings in India
 - Why? Retrieves the top 10 skills with the highest demand in the Indian job market,
@@ -9,7 +9,7 @@ Question: What are the most in-demand skills for data engineers?
 
 SELECT 
     sd.skills,
-    COUNT(jpf.*) AS demand_count
+    COUNT(*) AS demand_count
 FROM job_postings_fact AS jpf
 INNER JOIN skills_job_dim AS sjd ON jpf.job_id = sjd.job_id
 INNER JOIN skills_dim AS sd ON sjd.skill_id = sd.skill_id
