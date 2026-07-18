@@ -1,6 +1,6 @@
 # Data Engineering Projects
 
-Hands-on projects to reinforce core data engineering concepts from the SQL for Data Engineering course.
+Hands-on projects to reinforce core data engineering concepts from the SQL for Data Engineering.
 
 # Projects
 
@@ -17,8 +17,6 @@ End-to-end ETL pipeline transforming raw CSV files into a star schema data wareh
 **Skills**: Dimensional modeling, ETL pipeline development, data mart architecture, production practices
 
 ## [3_Flat_to_WH_Build/](./3_Flat_to_WH_Build/) - Flat to Warehouse Build
-
-*Bonus project — not covered in the course video*
 
 SQL-driven transformation of flat job posting data into a normalized star schema using DuckDB.
 
